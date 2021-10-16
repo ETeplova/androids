@@ -1,8 +1,8 @@
 <resources>
-    <string name="app_name">teplova1</string>
+    <string name="app_name">Teplova</string>
     <string name="choose">Choose one hero</string>
 
     <string name="name1">Spider Man</string>
-    <string name="name2">Halk</string>
+    <string name="name2">Hulk</string>
     <string name="name3">Captain America</string>
 </resources>
