@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Теплова</string>
+    <string name="choose">Выберите одного героя</string>
+
+    <string name="name1">Капитан америка</string>
+    <string name="name2">Черная вдова</string>
+    <string name="name3">Железный человек</string>
+    <string name="about1">Не выражаться!</string>
+    <string name="about2">Это было отвратительно.</string>
+    <string name="about3">Джарвис, запиши ка. Напомнить мне больше никогда не просыпаться по утрам.</string>
+</resources>
