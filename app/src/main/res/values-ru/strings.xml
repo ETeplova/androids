@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Теплова</string>
+    <string name="choose">Выберите одного героя</string>
+
+    <string name="name1">Человек паук</string>
+    <string name="name2">Халк</string>
+    <string name="name3">Капитан Америка</string>
+</resources>
