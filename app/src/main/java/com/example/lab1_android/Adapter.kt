@@ -19,9 +19,6 @@ import androidx.test.core.app.ApplicationProvider
 import androidx.core.content.ContextCompat.startActivity
 
 
-
-
-
 class Adapter(private val context: Context, private val dataset: List<Images>) :
     RecyclerView.Adapter<Adapter.ItemViewHolder>() {
     class ItemViewHolder(view: View) : RecyclerView.ViewHolder(view) {
@@ -37,6 +34,7 @@ class Adapter(private val context: Context, private val dataset: List<Images>) :
 
     override fun onBindViewHolder(holder: ItemViewHolder, position: Int) {
         val item = dataset[position]
+
         holder.textView.text = context.resources.getString(item.stringResourceId)
         holder.imgView.setImageResource(item.imageResourceId)
 
