@@ -35,16 +35,16 @@
         app:layout_constraintTop_toBottomOf="@id/logo" />
 
     <androidx.recyclerview.widget.RecyclerView
-            android:id="@+id/image_cards"
-            android:layout_marginTop="40dp"
-            android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:scrollbars="horizontal"
-            android:orientation="horizontal"
-            app:layout_constraintTop_toBottomOf="@id/text"
-            app:layout_constraintLeft_toLeftOf="parent"
-            app:layout_constraintRight_toRightOf="parent"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layoutManager="LinearLayoutManager"/>
+        android:id="@+id/image_cards"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="40dp"
+        android:orientation="horizontal"
+        android:scrollbars="horizontal"
+        app:layoutManager="LinearLayoutManager"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/text" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
