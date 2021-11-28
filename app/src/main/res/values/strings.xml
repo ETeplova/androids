@@ -2,7 +2,10 @@
     <string name="app_name">Teplova</string>
     <string name="choose">Choose one hero</string>
 
-    <string name="name1">Spider Man</string>
-    <string name="name2">Hulk</string>
-    <string name="name3">Captain America</string>
+    <string name="name1">Captain America</string>
+    <string name="name2">Black Widow</string>
+    <string name="name3">Iron Man</string>
+    <string name="about1">Language!</string>
+    <string name="about2">That Was Disgusting</string>
+    <string name="about3">JARVIS, make a note. Remind me not to wake up in the morning ever again.</string>
 </resources>
