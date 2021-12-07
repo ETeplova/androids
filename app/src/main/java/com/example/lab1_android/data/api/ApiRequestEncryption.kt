@@ -10,7 +10,6 @@ object ApiRequestEncryption {
     private val _publicKey = "0b26845ab0185ac5991192bfb9e553a8"
     val publicKey =
         _publicKey
-
     //hash creator
     fun toMD5hash(timeString: String): String {
         val hash = MessageDigest.getInstance("MD5").digest(
@@ -24,6 +23,5 @@ object ApiRequestEncryption {
     fun ByteArray.toHex(): String {
         return joinToString("") { "%02x".format(it) }
     }
-
 
 }
