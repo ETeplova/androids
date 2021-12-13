@@ -1,7 +1,7 @@
-package com.example.lab1_android.data
+package com.example.lab1_android.data.model
 
 import com.example.lab1_android.R
-import com.example.lab1_android.model.Images
+import com.example.lab1_android.data.model.Images
 
 class Datasource {
     fun loadImages (): List<Images> {
