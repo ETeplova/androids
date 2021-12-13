@@ -1,7 +1,7 @@
 package com.example.lab1_android.utils
 
 import androidx.room.TypeConverter
-import com.example.lab1_android.data.ComicList
+import com.example.lab1_android.data.model.ComicList
 import com.squareup.moshi.Moshi
 
 object ComicListConverter {

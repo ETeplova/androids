@@ -1,7 +1,7 @@
 package com.example.lab1_android.utils
 
 import androidx.room.TypeConverter
-import com.example.lab1_android.data.Image
+import com.example.lab1_android.data.model.Image
 import com.squareup.moshi.Moshi
 
 object ThumbnailConverter {

@@ -9,16 +9,11 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.RecyclerView
 import com.example.lab1_android.data.CharacterDataWrapper
 import com.example.lab1_android.data.SingleCharacter
-import com.example.lab1_android.data.api.ApiInterface
 import com.example.lab1_android.data.api.AppDatabase
 import com.example.lab1_android.data.api.RetrofitFactory
 import com.example.lab1_android.data.repository.SingleCharacterRepository
 import com.example.lab1_android.utils.RecyclerViewClickListener
 import kotlinx.coroutines.*
-import kotlinx.coroutines.flow.Flow
-import kotlinx.coroutines.flow.asFlow
-import kotlinx.coroutines.flow.flatMapConcat
-import kotlinx.coroutines.flow.toList
 import retrofit2.Call
 import retrofit2.Callback
 import retrofit2.Response

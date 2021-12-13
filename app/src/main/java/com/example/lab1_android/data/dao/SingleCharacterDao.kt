@@ -1,7 +1,7 @@
 package com.example.lab1_android.data.dao
 
 import androidx.room.*
-import com.example.lab1_android.data.SingleCharacter
+import com.example.lab1_android.data.model.SingleCharacter
 
 @Dao
 interface SingleCharacterDao {

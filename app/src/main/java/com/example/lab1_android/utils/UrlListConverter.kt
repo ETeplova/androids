@@ -1,7 +1,7 @@
 package com.example.lab1_android.utils
 
 import androidx.room.TypeConverter
-import com.example.lab1_android.data.Url
+import com.example.lab1_android.data.model.Url
 import com.squareup.moshi.Moshi
 import com.squareup.moshi.Types
 
