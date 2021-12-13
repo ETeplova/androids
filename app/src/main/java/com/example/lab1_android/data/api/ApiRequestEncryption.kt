@@ -24,6 +24,4 @@ object ApiRequestEncryption {
         return joinToString("") { "%02x".format(it) }
     }
 
-
-
 }

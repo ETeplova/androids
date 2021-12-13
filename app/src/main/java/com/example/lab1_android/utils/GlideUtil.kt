@@ -1,6 +1,5 @@
 package com.example.lab1_android.utils
 
-import com.squareup.picasso.Picasso
 import android.widget.ImageView
 import com.bumptech.glide.Glide
 import com.bumptech.glide.request.RequestOptions

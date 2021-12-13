@@ -1,9 +1,11 @@
 package com.example.lab1_android.data
 
-import java.util.*
+import androidx.room.Entity
+import androidx.room.PrimaryKey
 
+@Entity(tableName = "singleCharacter")
 data class SingleCharacter (
-    var id: Int? = null,
+    @PrimaryKey var id: Int? = null,
     var name: String? = null,
     var description: String? = null,
     //var modified: Date? = null,
@@ -13,4 +15,4 @@ data class SingleCharacter (
     var comics: ComicList? = null,
     var stories: StoryList? = null,
     var series: SeriesList? = null
-) {}
+)

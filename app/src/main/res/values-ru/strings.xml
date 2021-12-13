@@ -8,4 +8,5 @@
     <string name="about1">Не выражаться!</string>
     <string name="about2">Это было отвратительно.</string>
     <string name="about3">Джарвис, запиши ка. Напомнить мне больше никогда не просыпаться по утрам.</string>
+    <string name="Code404">404 Данные будут загружены из локального хранилища</string>
 </resources>

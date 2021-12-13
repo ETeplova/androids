@@ -41,7 +41,6 @@ class Adapter(private val dataset: List<SingleCharacter>, private val listener: 
         val id = dataset[position].id
         holder.textView.text = item.name
         val imageUrl = item.thumbnail?.path + "." + item.thumbnail?.extension
-        //Picasso.get().load(imageUrl).into(holder.imgView)
         GlideUtil.setImage(holder.imgView, imageUrl)
     }
 

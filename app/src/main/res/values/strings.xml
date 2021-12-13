@@ -8,4 +8,5 @@
     <string name="about1">Language!</string>
     <string name="about2">That Was Disgusting</string>
     <string name="about3">JARVIS, make a note. Remind me not to wake up in the morning ever again.</string>
+    <string name="Code404">404 Data will be loaded from db</string>
 </resources>
