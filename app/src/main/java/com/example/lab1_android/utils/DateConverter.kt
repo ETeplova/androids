@@ -1,7 +1,7 @@
 package com.example.lab1_android.utils
 
 import androidx.room.TypeConverter
-import com.example.lab1_android.data.Date
+import com.example.lab1_android.data.model.Date
 import com.squareup.moshi.Moshi
 
 object DateConverter {
