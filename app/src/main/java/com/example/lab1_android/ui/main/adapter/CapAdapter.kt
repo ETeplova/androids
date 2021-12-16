@@ -1,4 +1,4 @@
-package com.example.lab1_android
+package com.example.lab1_android.ui.main.adapter
 
 import android.content.Context
 import android.graphics.Color
@@ -8,10 +8,11 @@ import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
-import com.example.lab1_android.model.Images
+import com.example.lab1_android.R
+import com.example.lab1_android.data.model.Images
 
-class Adapter(private val context: Context, private val dataset: List<Images>) :
-    RecyclerView.Adapter<Adapter.ItemViewHolder>() {
+class CapAdapter(private val context: Context, private val dataset: List<Images>) :
+    RecyclerView.Adapter<CapAdapter.ItemViewHolder>() {
     class ItemViewHolder(view: View) : RecyclerView.ViewHolder(view) {
         val imgView: ImageView = view.findViewById(R.id.item_image)
         val textView: TextView = view.findViewById(R.id.item_name)
@@ -25,16 +26,9 @@ class Adapter(private val context: Context, private val dataset: List<Images>) :
 
     override fun onBindViewHolder(holder: ItemViewHolder, position: Int) {
         val item = dataset[position]
-
-        holder.imgView.setImageResource(item.imageResourceId)
         holder.textView.text = context.resources.getString(item.stringResourceId)
-
-        if (item.imageResourceId == R.drawable.img1)
-            holder.imgView.setBackgroundColor(Color.parseColor("#631708"))
-        else if (item.imageResourceId == R.drawable.img2)
-            holder.imgView.setBackgroundColor(Color.parseColor("#253d2a"))
-        else
-            holder.imgView.setBackgroundColor(Color.parseColor("#072e61"))
+        holder.imgView.setImageResource(item.imageResourceId)
+        holder.imgView.setBackgroundColor(Color.parseColor("#631708"))
     }
 
     override fun getItemCount(): Int {
