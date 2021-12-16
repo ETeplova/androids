@@ -3,6 +3,7 @@ package com.example.lab1_android.ui.main.view
 import android.os.Bundle
 import android.widget.ImageView
 import android.widget.TextView
+import android.widget.Toast
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
 import com.example.lab1_android.R
@@ -23,6 +24,7 @@ class OneCharacterActivity : BaseActivity() {
         setContentView(R.layout.one_character)
         characterId = intent.getIntExtra("CHARACTER_ID", 0)
 
+        //Toast.makeText(baseContext, characterId.toString(), Toast.LENGTH_SHORT).show()
         this.bindViewModel()
         viewModel.fetchCharacter(characterId!!)
     }

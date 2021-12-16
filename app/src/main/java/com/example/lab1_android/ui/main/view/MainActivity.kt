@@ -2,7 +2,9 @@ package com.example.lab1_android.ui.main.view
 
 import android.content.Intent
 import android.os.Bundle
+import android.util.Log
 import android.view.View
+import android.widget.Toast
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.RecyclerView
@@ -12,6 +14,9 @@ import com.example.lab1_android.ui.base.BaseActivity
 import com.example.lab1_android.ui.main.adapter.Adapter
 import com.example.lab1_android.ui.main.viewmodel.MainViewModel
 import com.example.lab1_android.utils.RecyclerViewClickListener
+import com.google.android.gms.tasks.OnCompleteListener
+import com.google.firebase.database.FirebaseDatabase
+import com.google.firebase.messaging.FirebaseMessaging
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint
@@ -26,7 +31,6 @@ class MainActivity : BaseActivity(), RecyclerViewClickListener {
 
         this.bindViewModel()
     }
-
     override fun bindViewModel() {
         viewModel = ViewModelProvider(this).get(MainViewModel::class.java)
         this.observeViewModel()
